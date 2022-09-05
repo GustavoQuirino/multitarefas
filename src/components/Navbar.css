@@ -1,0 +1,31 @@
+.container{
+    height: 12vh;
+    background-color: rgb(19, 2, 114);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container svg{
+    font-size: 40px;
+    margin-left: 2rem;
+}
+
+.menu{
+    font-size: 20px; 
+    margin-right: 2rem; 
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+}
+@media(max-width:500px){
+    .menu{
+        font-size: 12px;
+    }
+}
+.menu h1{
+    padding: 0 1rem 0;
+    color: #fff;
+}
+#links{
+    text-decoration: none;
+}
