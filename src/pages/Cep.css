@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(195, 241, 226);
     font-family: 'Kanit', sans-serif;
 }
 
@@ -10,6 +9,9 @@ body{
     flex-direction: column;
     width: 100%;
     height: 88vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../img/mapa.jpg');
 }
 .busca{
     display: flex;
@@ -17,8 +19,9 @@ body{
     justify-content: space-between;
     align-items: center;
     border: 1px solid rgb(19, 2, 114) ;
-    padding: 5rem;
+    padding: 5.5rem;
     border-radius: 5px;
+    background-color: rgb(204, 226, 244);
 }
 
 .busca h1{
@@ -52,4 +55,9 @@ body{
 .resultado{
     text-align: center;
     margin-top: 3rem;
+    color: rgb(11, 1, 150);
+    border: 1px solid rgb(19, 2, 114) ;;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(204, 226, 244);
 }
