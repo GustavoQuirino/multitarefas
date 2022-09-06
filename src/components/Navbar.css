@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.container svg{
+.logo h1{
     font-size: 40px;
     margin-left: 2rem;
 }

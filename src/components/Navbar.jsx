@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import './Navbar.css'
-import { FaList} from "react-icons/fa"
+
 
 
 const Navbar = () =>{
@@ -9,7 +9,7 @@ const Navbar = () =>{
         <div className="container">
             
             <div className="logo">
-                <FaList/>
+                <h1>MultiTarefas</h1>
             </div>
             <div className="menu">
                 <Link to='/'id='links' ><h1>BUSCA CEP</h1></Link>

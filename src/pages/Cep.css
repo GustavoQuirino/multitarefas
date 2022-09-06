@@ -24,6 +24,10 @@ body{
     background-color: rgb(204, 226, 244);
 }
 
+.busca svg{
+    font-size: 25px;
+}
+
 .busca h1{
     text-align: center;
     color: rgb(19, 2, 114);

@@ -1,7 +1,17 @@
+import './Timer.css'
+
+
 const Timer = () => {
 
     return (
-        <h1>Relogio</h1>
+        <div className="principal">
+            <div className="relogio">
+                
+            </div>
+            <div className="timer">
+
+            </div>
+        </div>
     )
 }
 
