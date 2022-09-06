@@ -30,7 +30,7 @@ const Cep = () => {
         <div className="display">
             <div className="busca">
                 <h1>BUSCA CEP</h1>
-                <input type='number'placeholder="00000-000" onChange={pegaCep} onClick={limpa}/><br />
+                <input type='text'placeholder="00000-000" maxLength={8} onChange={pegaCep} onClick={limpa}/><br />
                 <button onClick={captura}>BUSCAR</button>
             </div>
             <div className="resultado">
