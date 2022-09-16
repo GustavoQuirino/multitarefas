@@ -1,3 +1,5 @@
+
+
 import { useEffect, useState } from 'react'
 import './Timer.css'
 
@@ -7,13 +9,12 @@ const Timer = () => {
     const d = new Date()
     const hora = d.getHours()
     const minutos = d.getMinutes()
-    const [segundos ,setSegundos] = useState()
+    const [segundos, setSegundos] = useState('')
     
-    function pegaSegundos() {
+    
+    useEffect( () => {
         setSegundos(d.getSeconds())
-    }
-
-    
+    }, [segundos])
 
     return (
         <div className="principal">
