@@ -31,7 +31,7 @@ const Cep = () => {
         <div className="display">
             <div className="busca">
                 <h1>BUSCA CEP</h1>
-                <input type='text'placeholder="00000-000" maxLength={8} onChange={pegaCep} onClick={limpa}/><br />
+                <input type='tel'placeholder="00000-000" maxLength={8} onChange={pegaCep} onClick={limpa}/><br />
                 <button onClick={captura}>BUSCAR</button><br />
                 <FaSearchLocation/>
             </div>
